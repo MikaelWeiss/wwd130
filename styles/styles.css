@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_link {
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+#main_title {
+    font-size: 4em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+}
