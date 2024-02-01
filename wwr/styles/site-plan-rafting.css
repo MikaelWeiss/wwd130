@@ -27,6 +27,28 @@ Fonts are separated by a & */
   --nav-hover-background-color: #0e4f5f;
 }
 
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#hero-msg h1, #hero-msg h4, .button-box, main section {
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+}
+
+/* Colors */
+body {
+  background-color: #fcfbfb;
+}
+header {
+  background-color: rgba(20,30,13, .7);
+}
+nav a:hover {
+  background-color: #0e4f5f;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -112,6 +134,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  text-align: center;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
