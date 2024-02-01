@@ -1,0 +1,35 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(98, 159, 230);
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+p {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+ol {
+    font-size: 1.5em;
+    color: black;
+}
+img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+#end-text {
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
