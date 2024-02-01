@@ -9,11 +9,11 @@
 }
 
 .logo {
-    width: 150px;
+    width: 80px;
 }
 
 .icon {
-    width: 60px;
+    width: 80px;
 }
 
 .card-img, .mountains {
@@ -30,7 +30,7 @@
     margin: 0 auto;
 }
 
-nav {
+nav a {
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ nav a:hover {
 
 .book, .join {
     background-color: #9a031e;
-    color: black;
+    color: white;
 }
 
 .book:hover, .join:hover {
