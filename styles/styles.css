@@ -1,5 +1,13 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+/* Everything else */
+
 body {
     margin: 0;
+    font-family: 'Workbench', sans-serif;
 }
 
 #content {
@@ -11,6 +19,7 @@ body {
 header, footer {
     background-color: lightblue;
     padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 footer {
