@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    margin: 0;
+}
+
+#circle-image {
+    width: 25%;
+    margin: 15px 2%;
+    border-radius: 50%;
+    border: 10px solid white;
+}
