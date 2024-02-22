@@ -19,8 +19,45 @@ footer {
   font-family: "Bebas Neue", Arial, sans-serif;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
 #hero {
-  border: 2px solid #9a031e;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
+}
+
+#hero-img {
+  max-width: 100%;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+}
+
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+}
+
+#hero-msg h4 {
+  color: white;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
 }
 
 h2 {
@@ -48,7 +85,7 @@ h2 {
 
 .card-img,
 .mountains {
-  max-width: 60%;
+  width: 100%;
 }
 
 .card-img {
@@ -159,10 +196,17 @@ footer .social img {
 
 #logo_link {
   padding-top: 5px;
+  justify-content: center;
+  align-self: center;
 }
 
 .rivers-card,
 .camping-card,
 .rapids-card {
   margin: 200px;
+}
+
+.rivers-card {
+  grid-column: 2/4;
+  grid-row: 2/3;
 }
