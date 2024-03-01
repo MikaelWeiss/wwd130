@@ -4,7 +4,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @font-face {
   font-family: "Rustic Printed";
-  src: url("styles/RusticPrinted.woff");
+  src: url("styles/Rustic\ Printed.ttf") format("truetype");
 }
 
 :root {
