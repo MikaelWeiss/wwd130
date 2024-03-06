@@ -241,6 +241,13 @@ footer .social img {
   box-shadow: 5px 5px 10px #6f7364;
 }
 
+/* Rivers Page CSS */
+
+.rivers-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
