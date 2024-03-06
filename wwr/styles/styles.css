@@ -243,9 +243,27 @@ footer .social img {
 
 /* Rivers Page CSS */
 
-.rivers-grid {
+.rivers-body {
+  margin: 25px;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers-body h1 {
+  color: #0e4f5f;
+}
+
+.rivers-body img {
+  max-width: 50%;
+}
+
+.river-group-left img {
+  float: left;
+  margin: 0 25px 10px 0;
+}
+
+.river-group-right img {
+  float: right;
+  margin: 0 25px 0 25px;
 }
 
 @media screen and (max-width: 900px) {
