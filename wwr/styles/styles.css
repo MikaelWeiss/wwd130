@@ -388,6 +388,14 @@ button {
   margin-top: 3em;
 }
 
+.contact-us h1 {
+  color: #0e4f5f;
+}
+
+.contact-us {
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
 
   #hero,
