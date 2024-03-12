@@ -133,7 +133,7 @@ header {
   background-color: #0f4c5c;
 }
 
-.book,
+.contact,
 .join {
   background-color: #9a031e;
   color: white;
@@ -144,7 +144,7 @@ header {
   border-radius: 5px;
 }
 
-.book:hover,
+.contact:hover,
 .join:hover {
   background-color: #5f0f40;
   color: #fefae0;
