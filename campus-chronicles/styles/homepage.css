@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
 @font-face {
-  font-family: "Rustic Printed";
-  src: url("styles/Rustic\ Printed.ttf") format("truetype");
+    font-family: "Rustic Printed";
+    src: url("Rustic\ Printed.ttf") format("truetype");
 }
 
 /* General Styling */
@@ -12,7 +13,12 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Rustic Printed", sans-serif;
     color: #325242;
 }
@@ -23,6 +29,7 @@ main {
     line-height: 1.6;
     padding: 0 20px;
 }
+
 main img {
     max-width: 100%;
 }
@@ -34,9 +41,11 @@ main img {
     width: 400px;
     margin: 0 auto;
 }
+
 #hero h2 {
     color: white;
 }
+
 #hero .hero-img {
     position: absolute;
     left: 0px;
@@ -73,6 +82,8 @@ main img {
 /* Meet the Editors */
 
 #meet-the-editors {
+    display: flex;
+    flex-wrap: wrap;
     padding: 50px 0;
 }
 
@@ -111,18 +122,35 @@ nav {
     list-style-type: none;
     display: flex;
 }
+
 nav a {
     padding: 1em;
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
 }
+
 nav a:link nav a:visited {
     color: #325242;
 }
+
 nav a:hover {
     color: white;
     background-color: #325242;
 }
 
 /* Footer */
+
+footer {
+    background-color: #325242;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+
+}
+
+footer p {
+    padding-left: 25px;
+}
