@@ -28,6 +28,8 @@ h6 {
 main {
     line-height: 1.6;
     padding: 0 20px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 main img {
@@ -37,9 +39,8 @@ main img {
 #hero {
     text-align: center;
     color: white;
-    padding: 50px 100px;
+    padding: 50px;
     width: 400px;
-    margin: 0 auto;
 }
 
 #hero h2 {
@@ -56,14 +57,9 @@ main img {
     filter: blur(5px);
     border-radius: 4%;
     object-fit: contain;
-    min-width: 400px;
 }
 
 /* Article Group of Three */
-
-.article-group-of-three {
-    margin: 0 0 50px 0;
-}
 
 .article-short {
     display: flex;
@@ -84,7 +80,6 @@ main img {
 #meet-the-editors {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 0;
 }
 
 .editor {
@@ -121,6 +116,7 @@ nav {
     font-size: 1.2em;
     list-style-type: none;
     display: flex;
+    justify-content: space-around;
 }
 
 nav a {
