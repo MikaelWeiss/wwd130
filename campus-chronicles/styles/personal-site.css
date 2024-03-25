@@ -59,6 +59,18 @@ main img {
     object-fit: contain;
 }
 
+#this-group-all-articles {
+    display: flex;
+}
+
+#this-group-all-articles .article-short {
+    margin: 10px;
+}
+
+#this-group-meet-the-editors img {
+    border-radius: 25px;
+}
+
 /* Article Group of Three */
 
 .article-short {
@@ -191,6 +203,22 @@ nav .login-container button:hover {
     background: #ccc;
 }
 
+/* Footer */
+
+footer {
+    background-color: #325242;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+
+}
+
+footer p {
+    padding-left: 25px;
+}
+
 /* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 900px) {
     nav .login-container {
@@ -210,21 +238,4 @@ nav .login-container button:hover {
     #hero .hero-img {
         top: 240px;
     }
-}
-
-
-/* Footer */
-
-footer {
-    background-color: #325242;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    width: 100%;
-    display: flex;
-
-}
-
-footer p {
-    padding-left: 25px;
 }
