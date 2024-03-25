@@ -4,19 +4,28 @@
 <head>
     <meta charset="utf-8">
     <title>Campus Chronicles</title>
-    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <link type="text/css" rel="stylesheet" href="styles/personal-site.css">
 </head>
 
 <body>
     <header>
-        <h1>Campus Chronicles</h1>
+        <div id="header-header">
+            <img src="imgs/logo.png" alt="Campus Chronicles Logo">
+            <h1>Campus Chronicles</h1>
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="this-group.html">This group</a></li>
-                <li><a href="the-editors.html">The Editors</a></li>
-                <li><a href="the-archives.html">The Archives</a></li>
-            </ul>
+            <a class="active" href="index.html">Home</a>
+            <a href="this-group.html">This group</a>
+            <a href="the-editors.html">The Editors</a>
+            <a href="the-archives.html">The Archives</a>
+
+            <div class="login-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Username" name="username">
+                    <input type="text" placeholder="Password" name="psw">
+                    <button type="submit">Login</button>
+                </form>
+            </div>
         </nav>
     </header>
     <main>
@@ -31,9 +40,6 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2021 Campus Chronicles</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-        <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="imgs/Facebook.png" alt="fb icon">
@@ -45,7 +51,9 @@
                 <img src="imgs/Instagram.png" alt="instagram icon">
             </a>
         </div>
-        <a href="site-plan.html">Site Plan</a>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p id="copyright">&copy; 2021 Campus Chronicles</p>
     </footer>
 </body>
 
