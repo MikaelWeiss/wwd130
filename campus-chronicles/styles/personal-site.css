@@ -195,6 +195,44 @@ nav a {
     padding-left: 24px;
 }
 
+/* Meet The Editors */
+
+#editors {
+    padding-top: 99px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 286px;
+}
+
+.editor {
+    padding: 40px 29px 40px 29px;
+    background: #B53E67;
+    border-radius: 45px;
+    width: 398px;
+    margin: 45px 45px;
+}
+
+.editor img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.editor h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.editor h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
 /* Footer */
 
 footer {
